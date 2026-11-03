@@ -1,0 +1,47 @@
+:root {
+  /* Brand colors */
+  --primary: #f97316;
+  --primary-hover: #ea580c;
+  --primary-light: #ffedd5;
+  /*  Text-colors */
+  --text: #737373;
+  --text-h: #171717;
+  --text-muted: #a3a3a3;
+  /*  Background colors */
+  --bg:#ffffff;
+  --surface: #fafafa;
+  --border: #e5e5e5;
+  --code-bg: #fff7ed;
+  /* Accent */
+  --accent: #f97316;
+  --accent-bg: rgba(249, 115, 22, 0.1);
+  --accent-border: rgba(249, 115, 22, 0.2);
+  --social-bg: rgba(249, 247, 237, 0.7);
+  /* shadows */
+  --shadow: 
+  rgba(0, 0, 0, 0.05) 0 10px 15px -3px,
+  rgba(0, 0, 0, 0.04) 0 4px 6px -2px;
+  /* fonts */
+  --sans: 'Inter', system-ui, sans-serif;
+  --heading: 'Manrope', system-ui, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+}
+
+
+#root {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100svh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}

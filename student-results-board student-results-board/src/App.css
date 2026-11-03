@@ -1,0 +1,64 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+}
+
+.app {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+
+.student {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  
+  padding: 18px;
+  
+  margin-bottom: 12px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #00000010;
+}
+
+.grade {
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.top-student {
+  background: #dcfce7;
+  border: 2px solid #16a34a;
+}
+.header {
+  background: #1e293b;
+  color: white;
+  font-weight: bold;
+}
+
+.header span {
+  flex: 1;
+  text-align: center;
+}
+
+.student span {
+  flex: 1;
+  text-align: center;
+}
